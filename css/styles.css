@@ -3,12 +3,24 @@
 	src: url('../font/Lora-Regular.ttf') format('opentype');
 }
 
+@font-face {
+	font-family: "Mono";
+	src: url('../font/SpaceMono-Regular.ttf') format('opentype');
+}
+
+p {
+    font-family: "Lora";
+}
+
+h2, h3 {
+    font-family: "Mono";
+}
+
 body {
     width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Lora";
 }
 
 #header {
@@ -53,5 +65,22 @@ body {
     margin-top: 4%;
     background-color: rgba(119, 136, 153, 0.5);
     padding: 20px;
-    background
+}
+
+#form {
+    text-align: center;
+}
+
+#form input {
+    padding-top: 10px;
+    margin-bottom: 5%;
+}
+
+form {
+    display: grid;
+    margin: 0 30%;
+}
+
+form #comments {
+    padding: 0 0 120px 0;
 }
