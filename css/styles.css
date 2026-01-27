@@ -36,3 +36,22 @@ body {
     border: 1px solid black;
     padding: 40px;
 }
+
+#features {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+
+.feat {
+    border: 1px solid black;
+    padding: 3%;
+}
+
+#about {
+    text-align: center;
+    margin-top: 4%;
+    background-color: rgba(119, 136, 153, 0.5);
+    padding: 20px;
+    background
+}
