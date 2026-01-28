@@ -8,7 +8,7 @@
 	src: url('../font/SpaceMono-Regular.ttf') format('opentype');
 }
 
-p {
+p, button {
     font-family: "Lora";
 }
 
@@ -72,6 +72,7 @@ body {
     margin-top: 4%;
     background-color: rgba(119, 136, 153, 0.5);
     padding: 20px;
+    line-height: 50%;
 }
 
 #form {
@@ -94,6 +95,19 @@ form #comments {
 }
 
 #signup {
-    margin-left: 50px;
-    padding: 0 30px;
+    margin-left: 30px;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+#first {
+    background-color: rgba(127, 255, 212, 0.5);
+}
+
+#second {
+    background-color: rgba(0, 255, 255, 0.5)
+}
+
+#third {
+    background-color: rgba(0, 255, 255, 0.5)
 }
