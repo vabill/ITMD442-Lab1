@@ -8,7 +8,7 @@
 	src: url('../font/SpaceMono-Regular.ttf') format('opentype');
 }
 
-p, button {
+p, button, #form input {
     font-family: "Lora";
 }
 
@@ -56,6 +56,11 @@ body {
     padding: 40px;
 }
 
+#image img {
+    max-width: 600px;
+    max-height: 600px;
+}
+
 #features {
     display: flex;
     margin-top: 5%;
@@ -64,6 +69,13 @@ body {
 
 .feat {
     padding: 3%;
+}
+
+.feat img {
+    display: block;
+    max-width: 200px;
+    max-height: 100px;
+    margin: auto;
 }
 
 #about {
@@ -82,6 +94,7 @@ body {
 #form input {
     padding-top: 10px;
     margin-bottom: 5%;
+    font-size: 18px;
 }
 
 form {
