@@ -69,6 +69,7 @@ body {
 
 .feat {
     padding: 3%;
+    max-width: 250px;
 }
 
 .feat img {
@@ -76,6 +77,10 @@ body {
     max-width: 200px;
     max-height: 100px;
     margin: auto;
+}
+
+#third img {
+    margin-top: 50px;
 }
 
 #about {
@@ -113,16 +118,16 @@ form #comments {
 }
 
 #first {
-    background-color: rgba(127, 255, 212, 0.5);
-    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(193, 23, 53, 0.2);
+    box-shadow: -10px 10px 5px rgba(193, 23, 53, 0.5);
 }
 
 #second {
-    background-color: rgba(0, 255, 255, 0.5);
-    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 128, 255, 0.2);
+    box-shadow: -10px 10px 5px rgba(0, 128, 255, 0.5);
 }
 
 #third {
-    background-color: rgba(0, 255, 255, 0.5);
-    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 191, 179, 0.2);
+    box-shadow: -10px 10px 5px rgba(0, 191, 179, 0.5);
 }
